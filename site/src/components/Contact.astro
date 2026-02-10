@@ -1,74 +1,31 @@
 ---
-// No props needed for this static contact info and form
+import { Icon } from 'astro-icon/components';
 ---
-<section id="contact" class="py-12 px-4">
-  <div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-lg p-6 md:p-10">
-    <div class="flex flex-col md:flex-row gap-8">
-      <div class="flex-1 min-w-0 flex flex-col gap-6">
-        <h2 class="text-2xl md:text-3xl font-bold text-blue-900 mb-2">Contact Information</h2>
-        <ul class="space-y-4">
-          <li class="flex items-start gap-3">
-            <!-- MapPin Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.5-7.5 10.5-7.5 10.5S4.5 18 4.5 10.5a7.5 7.5 0 1 1 15 0z"/></svg>
-            <div>
-              <span class="font-semibold text-blue-700">ADDRESS:</span><br />
-              80 SOUTH LAKE AVE SUITE 515<br />
-              PASADENA, CA 91101
-            </div>
-          </li>
-          <li class="flex items-start gap-3">
-            <!-- Phone Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 7.5 7.5 14.25 14.25 14.25a2.25 2.25 0 0 0 2.25-2.25v-2.25a2.25 2.25 0 0 0-2.25-2.25c-.75 0-1.5.375-2.25.75a11.25 11.25 0 0 1-4.5-4.5c.375-.75.75-1.5.75-2.25A2.25 2.25 0 0 0 6.75 6.75H4.5A2.25 2.25 0 0 0 2.25 9v2.25z"/></svg>
-            <div>
-              <span class="font-semibold text-blue-700">OFFICE PHONE:</span><br />
-              800.262.9492<br />
-              949.222.2299
-            </div>
-          </li>
-          <li class="flex items-start gap-3">
-            <!-- DevicePhoneMobile Icon (for Fax) -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75h9a2.25 2.25 0 0 1 2.25 2.25v12a2.25 2.25 0 0 1-2.25 2.25h-9A2.25 2.25 0 0 1 5.25 18V6A2.25 2.25 0 0 1 7.5 3.75z"/><path stroke-linecap="round" stroke-linejoin="round" d="M9 18.75h6"/></svg>
-            <div>
-              <span class="font-semibold text-blue-700">FAX PHONE:</span><br />
-              949.261.9868
-            </div>
-          </li>
-          <li class="flex items-start gap-3">
-            <!-- Envelope Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25H4.5a2.25 2.25 0 0 1-2.25-2.25V6.75a2.25 2.25 0 0 1 2.25-2.25h15a2.25 2.25 0 0 1 2.25 2.25z"/><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75l-9.75 7.5-9.75-7.5"/></svg>
-            <div>
-              <span class="font-semibold text-blue-700">EMAIL:</span><br />
-              <a href="mailto:JOE@KIDUSHIM.COM" class="text-blue-600 underline break-all">JOE@KIDUSHIM.COM</a>
-            </div>
-          </li>
-          <li class="flex items-start gap-3">
-            <!-- Identification Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 6.75h10.5a2.25 2.25 0 0 1 2.25 2.25v6a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 15V9a2.25 2.25 0 0 1 2.25-2.25z"/><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6"/><path stroke-linecap="round" stroke-linejoin="round" d="M9 15h6"/></svg>
-            <div>
-              <span class="font-semibold text-blue-700">CA INSURANCE LICENSE #:</span> 0657834<br />
-              <span class="font-semibold text-blue-700">CT INSURANCE LICENSE #:</span> 663502
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="flex-1 min-w-0">
-        <h3 class="text-xl font-semibold text-blue-900 mb-4">Contact Us</h3>
-        <form class="flex flex-col gap-4" name="contact" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact" />
-          <label class="flex flex-col gap-1 font-medium text-blue-900">
-            Name
-            <input type="text" name="name" required class="border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-slate-50" />
-          </label>
-          <label class="flex flex-col gap-1 font-medium text-blue-900">
-            Email
-            <input type="email" name="email" required class="border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-slate-50" />
-          </label>
-          <label class="flex flex-col gap-1 font-medium text-blue-900">
-            Message
-            <textarea name="message" rows="4" required class="border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-slate-50"></textarea>
-          </label>
-          <button type="submit" class="mt-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-6 py-2 transition-colors">Send</button>
-        </form>
+<section id="contact" class="pt-6 px-4">
+  <div class="max-w-3xl mx-auto">
+    <div class="flex flex-col md:flex-row gap-10 min-h-[400px]">
+      <div class="flex-1 flex flex-col h-full">
+        <div class="bg-gradient-to-br from-blue-50 via-white to-blue-100 border border-blue-200 rounded-xl shadow-lg p-6 md:p-8 flex flex-col items-center text-center h-full">
+          <h3 class="text-2xl font-semibold text-blue-900 mb-4 flex items-center gap-2">
+            <Icon name="mdi:chat" class="w-7 h-7 text-blue-700" /> Contact Us
+          </h3>
+          <form class="flex flex-col gap-5 w-full max-w-md mx-auto" name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <label class="flex flex-col gap-1 font-medium text-blue-900 text-left w-full">
+              Name
+              <input type="text" name="name" required class="border border-blue-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-blue-50 transition-shadow hover:shadow-md" />
+            </label>
+            <label class="flex flex-col gap-1 font-medium text-blue-900 text-left w-full">
+              Email
+              <input type="email" name="email" required class="border border-blue-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-blue-50 transition-shadow hover:shadow-md" />
+            </label>
+            <label class="flex flex-col gap-1 font-medium text-blue-900 text-left w-full">
+              Message
+              <textarea name="message" rows="4" required class="border border-blue-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-blue-50 transition-shadow hover:shadow-md"></textarea>
+            </label>
+            <button type="submit" class="mt-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-6 py-2 transition-colors shadow-md w-full">Send</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
