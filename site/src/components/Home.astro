@@ -1,0 +1,28 @@
+---
+import ServiceThumb from "./ServiceThumb.astro";
+import {services} from "../data/services.js";
+console.log(services);
+---
+<section class="py-7 mx-auto section-bg-light">
+    <div class="title-color text-4xl bg-blend-color text-center w-3/4 mx-auto">
+        Since 1983 we have made it our mission to educate our clients on the intricacies of insurance contracts and how to best use them. As your personal guide and expert advisor, our firm takes the time to demystify the fine print to get to the optimal coverage that lets you focus on living your best life.
+    </div>
+</section>
+<section class="py-7 mx-auto w-3/4">
+    <div class="title-color text-centertitle-color text-5xl text-center">
+        Client Knowledge Is Power
+    </div>
+    <div class="text-2xl mt-7 text-center">
+        With over 40 years in the industry and access to 99% of the insurance companies in the United States, we help individuals, business owners, and their professional advisors cut through the noise to understand the use and value of their insurance options.
+    </div>
+</section>
+<section class="py-7 w-full bg-[#3A6EA5] text-white">
+    <div class="text-5xl text-center pb-6">
+        Services
+    </div>
+    <div class="flex flex-wrap justify-around">
+        {
+            services.map((data) => <ServiceThumb data={data}></ServiceThumb>)
+        }
+    </div>
+</section>

@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+    --font-sans: 'Cormorant Garamond', 'sans-serif';
+}
+
+.title-color {
+    color: #3A6EA5;
+}
+
+.section-bg-light {
+    background-color: rgba(81, 137, 204, 0.15);
+}

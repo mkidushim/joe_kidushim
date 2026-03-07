@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d995bad7-0eb0-4574-8a3a-efd7c02caabd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/site/src/components/Header.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/components/Home.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/components/ServiceThumb.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/data/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/pages/about.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/pages/contact.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/pages/services.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/components/Hero.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Hero.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/layouts/Layout.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/pages/index.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/styles/global.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/mikekidushim/Projects/joe_kidushim" value="379wpb8WNu9d0xY0LYE17hC0hZi" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="edit-panel" value="GPT-4.1" />
+      <entry key="chat-panel" value="GPT-4.1" />
+      <entry key="agent-panel" value="GPT-4.1" />
+    </selectedModels>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.github/workflows/deploy.yml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="379wpb8WNu9d0xY0LYE17hC0hZi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/mikekidushim/Projects/joe_kidushim/site/src/pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site/src/pages" />
+      <recent name="$PROJECT_DIR$/site/src/components" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d995bad7-0eb0-4574-8a3a-efd7c02caabd" name="Changes" comment="" />
+      <created>1766328779320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766328779320</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
