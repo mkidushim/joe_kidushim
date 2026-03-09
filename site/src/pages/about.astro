@@ -2,13 +2,18 @@
 import Layout from '../layouts/Layout.astro';
 import About from '../components/About.astro';
 import Hero from '../components/Hero.astro';
+import heroImage from '../assets/about-hero.webp';
 ---
 
 <Layout>
-    <Hero>
-        <h1 class="text-5xl text-white mb-6 text-center">
-            ABOUT US
-        </h1>
+    <Hero image={heroImage}>
+        <div class="w-full md:w-1/2 mx-auto text-white text-center px-4 md:px-0">
+            <div class="font-semibold text-2xl md:text-5xl mb-5">Your Partner In Family & Business Protection</div>
+            <div class="text-lg md:text-2xl">
+                Our goal is to give our clients the power to make informed decisions as we co-create tailored plans that
+                will thoroughly meet their needs.
+            </div>
+        </div>
     </Hero>
-    <About />
+    <About/>
 </Layout>

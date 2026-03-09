@@ -11,3 +11,8 @@
 .section-bg-light {
     background-color: rgba(81, 137, 204, 0.15);
 }
+
+.hero-overlay {
+    background-color: rgba(81, 137, 204);
+    opacity: .6;
+}

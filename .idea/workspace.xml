@@ -5,18 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d995bad7-0eb0-4574-8a3a-efd7c02caabd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/site/src/components/Header.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/components/Home.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/components/ServiceThumb.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/data/services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/pages/about.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/pages/contact.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/pages/services.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/components/Footer.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/components/FooterHero.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/site/public/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/home-hero.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/joe_kidushim.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/assets/joe_kidushim.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/lincoln.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/assets/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/massmutual.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/midland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/oneamerica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public/transamerica.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/components/About.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/About.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/components/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Header.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/src/components/Hero.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Hero.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/components/Home.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Home.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/components/ServiceThumb.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/ServiceThumb.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/data/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/data/services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/layouts/Layout.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/pages/index.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/pages/about.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/pages/about.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/pages/contact.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/pages/contact.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/pages/services.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/pages/services.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +77,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/mikekidushim/Projects/joe_kidushim/site/src/pages",
+    "last_opened_file_path": "/Users/mikekidushim/Projects/joe_kidushim/site/src/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,8 +96,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/site/src/pages" />
       <recent name="$PROJECT_DIR$/site/src/components" />
+      <recent name="$PROJECT_DIR$/site/src/assets" />
+      <recent name="$PROJECT_DIR$/site/src/pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site/src/assets" />
     </key>
   </component>
   <component name="TaskManager">
