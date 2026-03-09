@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d995bad7-0eb0-4574-8a3a-efd7c02caabd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/site/src/components/Footer.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/components/FooterHero.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/site/public/favicon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/home-hero.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/joe_kidushim.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/assets/joe_kidushim.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/lincoln.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/assets/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/massmutual.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/midland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/oneamerica.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/transamerica.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/components/About.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/About.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/components/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Header.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/components/Hero.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Hero.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/components/Home.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Home.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/components/ServiceThumb.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/ServiceThumb.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/data/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/data/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/layouts/Layout.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/pages/about.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/pages/about.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/pages/contact.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/pages/contact.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/pages/services.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/pages/services.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/components/Contact.astro" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Contact.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
