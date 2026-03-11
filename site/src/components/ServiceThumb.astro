@@ -2,9 +2,9 @@
 const {data = {}} = Astro.props;
 ---
 <div data-link={data.link}
-     class="link border py-3 px-1 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-4 rounded-lg shadow-md bg-white cursor-pointer text-black flex flex-col items-center min-h-[220px]">
-    <div class="title-color font-semibold text-xl md:text-3xl text-center mb-2">{data.title}</div>
-    <div class="text-base md:text-2xl text-center">{data.description}</div>
+     class="link border p-2 w-full md:w-1/4 rounded-lg shadow-md bg-white cursor-pointer text-black flex flex-col items-center">
+    <div class="title-color font-semibold text-xl md:text-2xl text-center mb-1">{data.title}</div>
+    <div class="text-base md:text-xl text-center">{data.description}</div>
 </div>
 
 <script>
